@@ -211,6 +211,7 @@ section {
   width: 25px;
   line-height: 40px;
   margin-top: 6px;
+  z-index: 20;
 }
 
 .button {
