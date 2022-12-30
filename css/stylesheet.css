@@ -207,11 +207,11 @@ section {
   background-color: rgb(1, 1, 55);
 }
 
-.button .icon img {
-  width: 25px;
+.button .icon i {
+  font-size: 25px;
   line-height: 40px;
-  margin-top: 6px;
-  z-index: 20;
+  color: black;
+  margin-left: 2px;
 }
 
 .button {
@@ -224,7 +224,7 @@ section {
   border-radius: 50px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all.3s ease-out;
-  overflow: hiddn;
+  overflow: hidden;
   margin-top: 30px;
 }
 
@@ -260,6 +260,10 @@ section {
   text-align: start;
 }
 
+.about-ikon h1 span {
+  padding-left: 15px;
+}
+
 .deskripsi {
   width: 80%;
   display: inline-block;
@@ -282,6 +286,10 @@ section {
 
 .heading h2 {
   font-weight: normal;
+}
+
+.heading h2 span {
+  padding-left: 15px;
 }
 
 .heading {
@@ -373,6 +381,10 @@ section {
   font-size: 40px;
   color: black;
   margin-bottom: 20px;
+}
+
+.contact-form h2 span {
+  padding-left: 15px;
 }
 
 .contact-form form {
@@ -535,6 +547,7 @@ footer .copy span {
   .menu-toggle {
     display: flex;
   }
+
   nav ul {
     position: absolute;
     right: 0;
