@@ -194,7 +194,7 @@ section {
 }
 
 .tombol-biru a {
-  background-color: rgb(0, 0, 159);
+  background-color: rgb(19, 19, 196);
   border-radius: 50px;
   font-size: 20px;
   color: white;
@@ -210,7 +210,7 @@ section {
 .button .icon i {
   font-size: 25px;
   line-height: 40px;
-  color: black;
+  color: #1da1f2;
   margin-left: 2px;
 }
 
@@ -220,12 +220,11 @@ section {
   height: 40px;
   width: 40px;
   margin: 0 10px;
-  background: #1da1f2;
+  background: black;
   border-radius: 50px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  transition: all.3s ease-out;
-  overflow: hidden;
   margin-top: 30px;
+  transition: all 0.3s;
 }
 
 .button .icon {
@@ -239,9 +238,12 @@ section {
 }
 
 .button:hover {
-  background: white;
+  background: #1da1f2;
 }
 
+.button .icon i:hover {
+  color: white;
+}
 /* about */
 .about-page {
   background-color: #e9ecef;
@@ -497,8 +499,16 @@ footer .row {
   margin-top: 10px;
 }
 
+.footer-col .button i {
+  color: black;
+}
+
 .footer-col .button:hover {
-  background: #ff731d;
+  background: black;
+}
+
+.footer-col .button i:hover {
+  color: #ff731d;
 }
 
 footer .copy {
@@ -525,9 +535,7 @@ footer .copy span {
   }
 
   .home,
-  .about,
-  .skils,
-  .project {
+  .about {
     width: 50%;
     margin-bottom: 50px;
   }
@@ -580,9 +588,7 @@ footer .copy span {
   }
 
   .home,
-  .about,
-  .skils,
-  .project {
+  .about {
     width: 100%;
     margin-bottom: 50px;
   }

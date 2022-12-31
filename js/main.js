@@ -1,3 +1,4 @@
+// untuk menampilkan slide
 const menutoggle = document.querySelector(".menu-toggle input");
 const nav = document.querySelector("nav ul");
 
@@ -5,6 +6,7 @@ menutoggle.addEventListener("click", function () {
   nav.classList.toggle("slide");
 });
 
+// ketika layar di bagian section maka bagian menu/navbar mengikuti
 const li = document.querySelectorAll("a");
 const sec = document.querySelectorAll("section");
 
